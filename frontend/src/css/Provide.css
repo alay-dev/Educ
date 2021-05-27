@@ -1,0 +1,65 @@
+.provide {
+    margin-top: 18rem !important;
+    height: max-content ;
+    width: 100% ;
+    padding: 4rem 0 ;
+    background-image: url("../img/bg-ga.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.provide .sub {
+    color: grey;
+    font-size: 1.4rem ;
+}
+
+.provide__cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 1000px ;
+    justify-content: center;
+    gap: 4rem ;
+    margin-top: 4rem ;
+}
+
+.provide__cont .box {
+    width: 20rem ;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.provide__cont .box img {
+    width: 5rem ;
+    height: 5rem ;
+}
+
+.provide__cont .box .img__bg {
+    padding: 2rem ;
+    border-radius: 50% ;
+}
+
+.provide__cont .box h2 {
+    color: #333 ;
+}
+
+.provide__cont .box p {
+    font-size: 1.1rem ;
+    line-height: 1.8rem ;
+    color: #333 ;
+}
+
+.provide .btn {
+    width: 10rem ;
+    height: 3rem ;
+    margin-top: 3rem ;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,95 @@
+.popular {
+    width: 100% ;
+    margin-top: 8rem ;
+    background-color: #333 ;
+    padding: 8rem 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: max-content ;
+}
+
+.popular h1 {
+    color: #fff;
+}
+
+.popular .sub {
+    color: #fff;
+    text-align: center;
+}
+
+.popular__cont {
+    display: flex;
+    gap : 2rem ;
+    bottom: -9rem ;
+}
+
+.popular__cont .card {
+    background-color: #fff;
+    width: 25rem ;
+    height: max-content;
+    margin: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem ;
+    padding-bottom: 2rem ;
+}
+
+@media only screen and (max-width: 950px) {
+    .popular__cont .card {
+        width: 16rem !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .popular__cont {
+        flex-direction: column;
+    }
+    .popular__cont .card {
+        width: 20rem !important;
+    }
+}
+
+.popular__cont .card h2 {
+    margin-top: 0 !important;
+    text-align: center;
+}
+
+.popular__cont .card img {
+    display: inline-block;
+    width: 100% ;
+}
+
+.popular__cont .card__info {
+    display: flex;
+    gap: 2rem ;
+    color: grey ;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular__cont .card__info p {
+    margin: 0 ;
+}
+
+.popular__cont .card__info i {
+    color: #559d2d;
+    font-size: 1.4rem ;
+    margin-right: 0.8rem ;
+}
+
+.popular__cont .card_desc {
+    font-size: 1.2rem ;
+    padding: 0 2rem ;
+    color: rgb(102, 99, 99) ;
+    line-height: 1.9rem ;
+}
+
+.popular__cont .card .price {
+    font-size: 1.5rem ;
+}
+
+.popular__cont .card .price span {
+    color: #559d2d ;
+}

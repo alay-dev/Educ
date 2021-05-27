@@ -1,0 +1,22 @@
+.gallery {
+    margin: 8rem 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 40rem ;
+}
+
+@media only screen and (max-width: 950px ){
+    .gallery {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 550px ){
+    .gallery img {
+        width: 100% !important;
+    }
+}

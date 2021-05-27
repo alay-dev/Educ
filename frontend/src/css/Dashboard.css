@@ -1,0 +1,12 @@
+.dashboard {
+    padding: 2rem ;
+    background-image: url('../img/wave-haikei2.svg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dashboard .cont {
+    display: flex;align-items: center;
+    justify-content: space-between;
+}
